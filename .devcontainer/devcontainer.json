@@ -2,5 +2,13 @@
     "build": {
         "context": "..",
         "dockerfile": "Dockerfile"
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [ "rust-lang.rust-analyzer@0.3.1916" ],
+            "settings": {
+                "rust-analyzer.linkedProjects": [ "exercises/Cargo.toml" ]
+            }
+        }
     }
 }
